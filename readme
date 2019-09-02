@@ -1,0 +1,8 @@
+# npm install amqplib --save
+
+
+# rodar 'node worker.js' 1º vez cria fila
+
+# abrir dois terminais e rodar'node worker.js' em cada um deles
+
+# rodar 'node app.js'
