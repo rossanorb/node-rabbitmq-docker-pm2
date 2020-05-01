@@ -1,0 +1,5 @@
+log
+config/*
+mnesia
+schema
+.erlang.cookie
