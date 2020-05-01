@@ -1,5 +1,6 @@
 log
 config/*
+config/generated/*
 mnesia
 schema
 .erlang.cookie
