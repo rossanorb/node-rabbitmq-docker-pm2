@@ -5,7 +5,7 @@ var uuid = require('uuid');
 var db = level('./db');
 var q = 'mensagens';
 
-amqp.connect('amqp://localhost:5672')
+amqp.connect('amqp://rabbitmq:5672')
     .then(function (conn) {
         return conn.createChannel();
     }).then(function (ch) {

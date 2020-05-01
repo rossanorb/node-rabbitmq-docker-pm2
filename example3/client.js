@@ -4,7 +4,7 @@ var faker = require('faker');
 var q = 'mensagens';
 var message_id = 1;
 
-amqp.connect('amqp://localhost:5672')
+amqp.connect('amqp://rabbitmq:5672')
     .then(function (conn) {
         return conn.createChannel();
     }).then(function (ch) {
