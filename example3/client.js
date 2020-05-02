@@ -12,14 +12,14 @@ amqp.connect('amqp://rabbitmq:5672')
         setInterval(function () {
             ch.assertQueue(q).then(function (ok) {
 
-                const buff = helpers.JSONtoBuffer({                    
+                const buff = helpers.JSONtoBuffer({
                     'message_id' : message_id,
                     'order_id': faker.random.number(),
                     'name': `${faker.name.firstName()} ${faker.name.lastName()} `
-                });                                
+                });
                 ch.sendToQueue(q, buff);
                 message_id++;
             });
-        }, 2000);    
+        }, 2000);
 
     }).catch(console.warn);

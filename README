@@ -1,0 +1,6 @@
+# Iniciar containers
+# > sudo docker-compose up --build
+
+# Para Iniciar o script :
+
+# acesse: http://localhost:3000/

@@ -21,7 +21,7 @@ amqp.connect('amqp://rabbitmq:5672')
                     }
 
                     ch.ack(msg);
-                    console.log("Received ----------------------------------");
+                    console.log("--------------------------------------------------------------------");
                     console.log(helpers.BufferToJSON(msg.content.toString()))
                 });
             }
