@@ -1,10 +1,6 @@
 # Iniciar containers
 # > sudo docker-compose up --build
 
-# Para Iniciar o script :
-
-# acesse: http://localhost:3000/
-
 
 # usando PM2
 # acessar container node: docker exec -it [container] /bin/sh
