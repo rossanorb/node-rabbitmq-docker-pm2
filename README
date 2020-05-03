@@ -12,6 +12,6 @@
 
 # pm2 start client.js (inicia client.js responsável por alimentar fila - *Producer)
 # pm2 monit
-# pm2 start consumer.js -i 2 ( inicia aplicação com dois cluster rodando 2 workers *Consumer)
+# pm2 start consumer.js -i 2 ( inicia aplicação com cluster rodando 2 workers *Consumer)
 # pm2 scale client.js 2  ( cria dois processos para a mesma aplicação )
 # pm2 scale client.js 1  ( volta para apenas um processo na mesma aplicação )
